@@ -3,6 +3,8 @@ let numeroAnterior = "";
 let numerodeOperacion = 0;
 let bloquear = false;
 
+
+// comentario desde github
 function mostrar(numero) {
     if (numeroDelDisplay === "Error") {
         numeroDelDisplay = "";
