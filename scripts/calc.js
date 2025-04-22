@@ -42,6 +42,7 @@ function igual() {
         case "/":
             if (Number(numeroDelDisplay) == 0) {
                 result = "Error";
+                bloqueador();
             } else {
                 result = Number(numeroAnterior) / Number(numeroDelDisplay);
             }
