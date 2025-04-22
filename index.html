@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="index.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="fondos/calculadora.png" type="image/PNG">
+</head>
+<body id="fondo" style="background-image: url(fondos/Winfondo.png);">
+    <script src="scripts/calc.js"></script>
+
+    <div class="calculadora">
+        <div class="resultado">
+            <h6 id="displayTop"></h6>
+            <h1 id="display">0</h1>
+        </div>
+
+        <div class="parent">
+            <button class="disabledd" id="boton" onclick="operacion('%')"><div class="div1"></div></button>
+            <div class="div2" onclick="borrar()"></div>
+            <div class="div3" onclick="borrartodo()"></div>
+            <div class="div4" onclick="deleteLast()"></div>
+            <button class="disabledd" id="boton" onclick="inverso()"><div class="div5"></div></button>
+            <button class="disabledd" id="boton" onclick="cuadrado()"><div class="div6"></div></button>
+            <button class="disabledd" id="boton" onclick="raizCuadrada()"><div class="div7"></div></button>
+            <button class="disabledd" id="boton" onclick="operacion('/')"><div class="div8"></div></button>
+            <div class="div9" onclick="mostrar(7)"></div>
+            <div class="div10" onclick="mostrar(8)"></div>
+            <div class="div11" onclick="mostrar(9)"></div>
+            <button class="disabledd" id="boton" onclick="operacion('x')"><div class="div12"></div></button>
+            <div class="div13" onclick="mostrar(4)"></div>
+            <div class="div14" onclick="mostrar(5)"></div>
+            <div class="div15" onclick="mostrar(6)"></div>
+            <button class="disabledd" id="boton" onclick="operacion('-')"><div class="div16"></div></button>
+            <div class="div17" onclick="mostrar(1)"></div>
+            <div class="div18" onclick="mostrar(2)"></div>
+            <div class="div19" onclick="mostrar(3)"></div>
+            <button class="disabledd" id="boton" onclick="operacion('+')"><div class="div20"></div></button>
+            <button class="disabledd" id="boton" onclick="cambioSigno()"><div class="div21"></div></button>
+            <div class="div22" onclick="mostrar(0)"></div>
+            <button class="disabledd" id="boton" onclick="puntoDecimal()"><div class="div23"></div></button>
+            <div class="div24" onclick="igual()"></div>
+        </div>
+    </div>
+</body>
+</html>
